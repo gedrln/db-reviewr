@@ -1,0 +1,2377 @@
+[
+  {
+    "num": 1,
+    "body": "You manage a database named Exams accessed via a website. The website is regularly accessed by users in different countries. You are redesigning a table named History that records when users have purchased and taken online exams. You need one of the columns in the History table to record what time of day that a user has taken an exam. Additionally, you need this column to have time zone awareness. What data type should you use",
+    "choices": {
+      "B": "datetimeoffset",
+      "A": "column of datetime, and the second column indicating the UTC offset.",
+      "C": "datetime",
+      "D": "datetime2"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 1
+  },
+  {
+    "num": 2,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Views are database objects that contain all of the data in a database. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "Tables",
+      "B": "Queries",
+      "C": "No change is needed",
+      "D": "Stored procedures"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 1
+  },
+  {
+    "num": 4,
+    "body": "Fill in the blank with the appropriate word. The _______________ model for database management is a database model based on first-order predicate logic.",
+    "choices": {
+      "A": "Traditional",
+      "B": "Truncate",
+      "C": "Relational"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 2
+  },
+  {
+    "num": 5,
+    "body": "You work as a MySQL Database Administrator. Your server crashed and it was recovered and made online within half an hour. What will you do to ensure that the table structure and contents are in a proper state?",
+    "choices": {
+      "B": "Perform a table repair operation.",
+      "A": "operation.",
+      "C": "Perform a table check operation.",
+      "D": "Perform a table analysis operation."
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 2
+  },
+  {
+    "num": 6,
+    "body": "James works as an Administrator for Softech Inc. The company has a SQL Server 2005 computer named SQL1. The company has six departments; Accounting, Sales, Marketing, Manufacturing, Production, and Research. The user accounts of each department are located in a domain group named after the department. James wants to create a separate database on SQL1 for each department which will store the department related information. Users in each department must be able to read and update data in the database belonging to their respective departments. No user must be able to access the database belonging to another department. James wants to configure access to the database to meet these requirements. What should James do to accomplish the task? James should create a Windows James should create a Windows Authentication login for each domain Authentication login for each domain group and configure the logins as user and configure the logins as",
+    "choices": {
+      "A": "database users for the appropriate database. Add each database user to the db_datareader and db_datawriter database roles. James should create a Windows Authentication login for each domain user and configure the logins as",
+      "B": "database users for the appropriate database. Add each database user to the db_datareader and db_datawriter database roles. James should create a Windows Authentication login for each domain group and configure the logins as",
+      "C": "database users for the appropriate database. Add each database user to the db_ddladmin database role.",
+      "D": "database users for the appropriate database. Add each database user to the db_ddladmin database role."
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 3
+  },
+  {
+    "num": 7,
+    "body": "Which of the following is the process of creating a design for the database that will support the enterprise\u2019s operations and objectives for the required database system?",
+    "choices": {
+      "B": "Database planning",
+      "A": "objects",
+      "C": "Database design",
+      "D": "Application design"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 3
+  },
+  {
+    "num": 8,
+    "body": ": MULTIPLE CHOICE You are the database administrator for a MySQL database. The database server is installed on a Unix system. The time zone files for the system are located at /usr/share/zoneinfo. You need to ensure that the system and MySQL time zones are based on the same information. Which of the following statements will you use to accomplish the task? shell> /ust/share/zoneinfo shell> mysql_tz_to_sql",
+    "choices": {
+      "A": "mysql_tz_to_sql | mysql -u root mysal shell> mysql_tzinfo_to_sql",
+      "B": "/ust/share/zoneinfo | mysql -u root mysql shell> /ust/share/zoneinfo",
+      "C": "/ust/share/zoneinfo | mysql -u root mysql",
+      "D": "mysql_tzinfo_to_sql | mysql -u root mysql"
+    },
+    "answers": [],
+    "page": 84
+  },
+  {
+    "num": 9,
+    "body": "What is the ideal time to back up dynamic log files?",
+    "choices": {
+      "A": "When the server is running. You can back up dynamic log files",
+      "B": "When the server is shut down.",
+      "D": "When the server is stopped.",
+      "C": "any time."
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 4
+  },
+  {
+    "num": 10,
+    "body": "Mark works as a Database Designer for Reon Inc. He is assigned the task to create a database for the company. He issues the following query to create the database: CREATE DATABASE \u201824342\u2019 What will be the output of the query?",
+    "choices": {
+      "A": "A database will be created. An error will be generated stating that a database name should be a",
+      "B": "with an alphabet and all the alphabets should be in uppercase. An error will be generated stating",
+      "D": "that a database name must begin with an alphabet.",
+      "C": "combination of numerals and alphabets."
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 4
+  },
+  {
+    "num": 11,
+    "body": "Which of the following commands cannot be rolled back? Each correct answer represents a complete solution. (Choose two.)",
+    "choices": {
+      "A": "UPDATE",
+      "B": "TRUNCATE",
+      "C": "COMMIT",
+      "D": "DELETE"
+    },
+    "answers": [
+      "B",
+      "C"
+    ],
+    "page": 5
+  },
+  {
+    "num": 12,
+    "body": "Which of the following are the types of prototyping strategies? Each correct answer represents a complete solution. (Choose two.)",
+    "choices": {
+      "A": "Physical prototyping",
+      "B": "Evolutionary prototyping",
+      "C": "Requirements prototyping",
+      "D": "Revolutionary prototyping"
+    },
+    "answers": [
+      "B",
+      "C"
+    ],
+    "page": 5
+  },
+  {
+    "num": 13,
+    "body": "Which of the following DML SQL statements support usage of correlated sub-queries? Each correct answer represents a complete solution. (Choose all that apply.)",
+    "choices": {
+      "A": "SELECT",
+      "B": "INSERT",
+      "C": "UPDATE",
+      "D": "DELETE"
+    },
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "page": 5
+  },
+  {
+    "num": 14,
+    "body": ": MULTIPLE CHOICE What is the relationship between the foreign key and primary key? Each correct answer represents a complete solution. (Choose all that apply.) A foreign key constraint works in A foreign key and a primary key",
+    "choices": {
+      "B": "create a link between two entities. There is no relationship between a",
+      "A": "constraint to enforce referential integrity among related entities. A foreign key ties attribute(s) of an entity to the primary key of another",
+      "D": "primary key and a foreign key.",
+      "C": "entity, for the purpose of creating a dependency."
+    },
+    "answers": [],
+    "page": 86
+  },
+  {
+    "num": 15,
+    "body": "Remo works as a Database Designer for Tech Inc. He wants to create a table named Product. He issues the following query to create the Product table: CREATE Product ( ProductID Char (10) NOT NULL, OrderID Char (10) NULL ProductName Varchar NOT NULL, Primary key (OrderID, ProductID)) What are the errors in the above query? Each correct answer represents a complete solution. (Choose two.) An attribute declared as a primary Each attribute should be defined as a",
+    "choices": {
+      "A": "key cannot contain NULL values. A table cannot have two primary",
+      "B": "primary key separately. ProductName is declared as Varchar",
+      "C": "keys.",
+      "D": "without specifying the width of the column."
+    },
+    "answers": [
+      "A",
+      "D"
+    ],
+    "page": 6
+  },
+  {
+    "num": 16,
+    "body": "Which of the following steps in database planning is used to record an object so that it is represented visually in the system?",
+    "choices": {
+      "B": "Gathering information",
+      "A": "objects",
+      "C": "Object identification",
+      "D": "Object modeling"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 6
+  },
+  {
+    "num": 17,
+    "body": "You are the database administrator for a MySQL database server. The network contains new and old (pre-4.1) clients. You configure another database server on the network. You allow the network clients to connect to the new server. Some users complain that when they try to connect to the server, they receive the following error: ERROR 1251: The client does not support authentication protocol requested by the server; consider upgrading MySQL client You do not want to upgrade any client or server right now, and want to enable all clients to connect to the new server successfully. Which of the following steps will you take to resolve the issue? Run the server with the \u2013secure-auth Run the server with the \u2013old-",
+    "choices": {
+      "A": "option. Run the server with the \u2013allow-old",
+      "B": "password option. Run the server with the \u2013enable-old",
+      "C": "option.",
+      "D": "option."
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 7
+  },
+  {
+    "num": 18,
+    "body": "In addition to taking backups of your databases, you should also backup up files stated below. Which of these files store updates that have been made after the backup was made?",
+    "choices": {
+      "A": "Binary log files",
+      "B": "My.ini",
+      "C": "My.cnf",
+      "D": "Master.info"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 7
+  },
+  {
+    "num": 19,
+    "body": "Which of the following is a building working model of a database system?",
+    "choices": {
+      "A": "Prototyping",
+      "B": "Bottom-up approach",
+      "C": "Conceptual database design",
+      "D": "Top-down approach"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 7
+  },
+  {
+    "num": 20,
+    "body": "Which of the following scripts is used to convert Unix-type zone files into SQL statements, and loads the time zone tables in a mysql database?",
+    "choices": {
+      "A": "mysql_time_to_sql",
+      "B": "mysql_tzinfo_to_sql",
+      "C": "mysql_tz_to_sql",
+      "D": "mysql_timezone_to_sql"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 8
+  },
+  {
+    "num": 21,
+    "body": "You work as a Database Designer for Tritech Inc. You are designing a table named Info. The table contains the following attributes: Login and Password Name ContactNumber Address Each new employee joining the company is assigned an E-mail Login and Password. This E-mail Login and Password is used by each employee to access his account on the company\u2019s Web site. The value of both the attributes should be unique and cannot be NULL. You design an artificial key EmpID in the Info table to serve as a primary key. Which of the following factors lead you to define an artificial key for use as a primary key in the Info table? Each correct answer represents a part of the solution. (Choose all that apply.) The value of the primary key must be The value of the primary key must be",
+    "choices": {
+      "A": "unique. The value of the primary key cannot",
+      "B": "persistent. The natural key contains highly",
+      "C": "be NULL.",
+      "D": "sensitive data"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "page": 8
+  },
+  {
+    "num": 23,
+    "body": "You work as a Database Administrator for InfoTech Inc. The company has a database and they want you to create a design for a database that will support the enterprise\u2019s operations and objectives. Which of the following will you use to accomplish the task?",
+    "choices": {
+      "B": "Database planning",
+      "A": "analysis",
+      "C": "Database design",
+      "D": "Application design"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 9
+  },
+  {
+    "num": 25,
+    "body": "Which of the following enables a user to use generic methods to access a database and to focus on the coding rather than the syntax for a specific database API?",
+    "choices": {
+      "A": "Abstraction",
+      "B": "Database security",
+      "C": "Authentication",
+      "D": "Native auditing"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 10
+  },
+  {
+    "num": 26,
+    "body": ": MULTIPLE CHOICE Consider the case of a distance education university. The university has many regional centers across the country. Each regional center has a head known as regional manager. Each regional center has allotted more than one study center in its region. Each regional center has a region code, which is unique and specifies a region. Each study center also has a study center code, which is also unique. What is the relationship between regional center and study center? \ue607",
+    "choices": {
+      "A": "One-to-one",
+      "B": "One-to-many",
+      "C": "Many-to-many",
+      "D": "There is no relationship."
+    },
+    "answers": [],
+    "page": 92
+  },
+  {
+    "num": 27,
+    "body": "Suzanne works as a Database Designer for DataOneWorld Inc. She is assigned the task of decomposing the components of a database, but she has to ensure that all the components are decomposed to only some extent. Which of the following approaches will she use to accomplish the task?",
+    "choices": {
+      "A": "Inside-out approach",
+      "B": "Mixed approach",
+      "C": "Top-down approach",
+      "D": "Bottom-up approach"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 11
+  },
+  {
+    "num": 28,
+    "body": "Which of the following is used to give a default value to a column if the value for that column is unknown?",
+    "choices": {
+      "A": "DEFAULT constraint",
+      "B": "Transaction",
+      "C": "Concurrency",
+      "D": "Nested transaction"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 11
+  },
+  {
+    "num": 29,
+    "body": "Which of the following is a design of the user interface and the application programs that use and process the database?",
+    "choices": {
+      "A": "Object Modeling",
+      "B": "Database Design",
+      "C": "Application Design",
+      "D": "Database Planning"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 11
+  },
+  {
+    "num": 30,
+    "body": "Mark works as a Database Administrator for DataOneWorld Inc. Management instructs him to provide an additional security layer to the database to prevent unauthorized viewing of data with the help of an algorithm called cipher. Which of the following will help him to accomplish the task?",
+    "choices": {
+      "A": "Authentication",
+      "B": "Encryption",
+      "C": "Native auditing",
+      "D": "Abstraction"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 12
+  },
+  {
+    "num": 31,
+    "body": "Which of the following values cannot be stored in a character column defined as the primary key of a table?",
+    "choices": {
+      "A": "'0'",
+      "B": "'null'",
+      "C": "null",
+      "D": "\""
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 12
+  },
+  {
+    "num": 32,
+    "body": "Which of the following statements about external tables is true?",
+    "choices": {
+      "A": "They can have indexes. They cannot be written to with DML",
+      "B": "and subqueries They can have constraints or",
+      "C": "commands.",
+      "D": "triggers."
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 12
+  },
+  {
+    "num": 33,
+    "body": ": MULTIPLE CHOICE Which of the following can be used to populate a table? Each correct answer represents a complete solution. (Choose all that apply.)",
+    "choices": {
+      "A": "MERGE statement",
+      "B": "INSERT statement",
+      "C": "SQL*Loader",
+      "D": "Data Pump"
+    },
+    "answers": [],
+    "page": 94
+  },
+  {
+    "num": 34,
+    "body": "You are a Database Administrator of MySQL database. Few days back, your server crashed. Now, it is up and online. You need to check the integrity of various tables used in the database. You need to issue the CHECK TABLE command. For which of the following tables will this command work? Each correct answer represents a complete solution. (Choose two.)",
+    "choices": {
+      "A": "FEDERATED",
+      "B": "MyISAM",
+      "C": "InnoDB",
+      "D": "MERGE"
+    },
+    "answers": [
+      "B",
+      "C"
+    ],
+    "page": 13
+  },
+  {
+    "num": 35,
+    "body": "Which of the following are the main approaches in the database design? Each correct answer represents a complete solution. (Choose three.)",
+    "choices": {
+      "A": "Inside-out approach",
+      "B": "Middle approach",
+      "C": "Top-down approach",
+      "D": "Bottom-up approach"
+    },
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "page": 13
+  },
+  {
+    "num": 36,
+    "body": ": MULTIPLE CHOICE Your Company is designing and developing a number of databases for a stock exchange. One of the databases will contain highly sensitive data for which high level of security will be required. Although high processing speed is one of the prime requirements of the customer, for this database, security of the data will take priority over the processing speed. It needs to be ensured that even if unauthorized access to the database is obtained, the rogue user is unable to read the data. Which of the following protection techniques will you suggest for this database? \ue607",
+    "choices": {
+      "A": "Native auditing",
+      "B": "Encryption",
+      "C": "Integrity controls",
+      "D": "Authentication"
+    },
+    "answers": [],
+    "page": 95
+  },
+  {
+    "num": 37,
+    "body": "Which of the following database terms is described in the statement below? It prevents the current database operation from reading or writing a data item while the data item is being accessed by another operation.",
+    "choices": {
+      "A": "Deadlock",
+      "B": "Encryption",
+      "C": "Lock",
+      "D": "Constraint"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 14
+  },
+  {
+    "num": 38,
+    "body": "You manage a database named Customers, which includes a table named Orders. The Orders table is frequently queried, but only orders with a sales total of more than $1000.00 are required in the query. You want to create an index to speed up these types of queries at the same time, ensuring the index is as small as possible. What type of index should you use?",
+    "choices": {
+      "A": "Filtered",
+      "B": "XML",
+      "C": "Non-clustered",
+      "D": "Clustered"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 14
+  },
+  {
+    "num": 40,
+    "body": "Consider the case of a fruit juice company. The company manufactures fruit juices and supplies them to wholesalers. The Database Designer creates a table named Production. The code is given below: 1.CREATE Table Production 2.(Fruit_type VarChar, 3.Fruit_name Char(20), 4.Quantity Int(3)) Which of the above-mentioned lines has an error?",
+    "choices": {
+      "A": "Line 3",
+      "B": "Line 2",
+      "C": "Line 4",
+      "D": "Line 1"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 15
+  },
+  {
+    "num": 41,
+    "body": "Which of the following steps in database planning helps to determine the requirements of the database through interviewing?",
+    "choices": {
+      "A": "Identifying the objects Identifying the type of information",
+      "B": "objects",
+      "D": "Modeling the object",
+      "C": "for each object Gathering information"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 15
+  },
+  {
+    "num": 42,
+    "body": "Which of the following provides reliable units of work that allow correct recovery from failures and keeps a database consistent even in cases of system failure?",
+    "choices": {
+      "A": "Concurrency control",
+      "B": "Database transaction",
+      "C": "Two-phase commit",
+      "D": "Database security"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 16
+  },
+  {
+    "num": 43,
+    "body": "You work as a Database Designer for DataOneWorld Inc. The company has a SQL Server database. You are assigned the task of creating a data model of an enterprise based on a specific data model. The model to be created should be independent of a particular DBMS. Which of the following database designs will help you accomplish the task?",
+    "choices": {
+      "A": "Application design",
+      "B": "Logical database design",
+      "C": "Physical database design",
+      "D": "Conceptual database design"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 16
+  },
+  {
+    "num": 44,
+    "body": "JDBC API 2.0 defines five levels of transaction isolation for database concurrency control. Which of the following is the lowest level of transaction isolation? TRANSACTION_READ_UNCOMMITT TRANSACTION_REPEATABLE_REA",
+    "choices": {
+      "A": "ED",
+      "B": "",
+      "C": "TRANSACTION_READ_COMMITTED TRANSACTION_NONE",
+      "D": "TRANSACTION_SERIALIZABLE"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 16
+  },
+  {
+    "num": 46,
+    "body": "Smith works as a Database Administrator for DWorlds Inc. The management instructs him to plan a database where identifying the key objects or entities for database management is important. Which of the following database planning steps will help him to accomplish the task?",
+    "choices": {
+      "B": "Gathering information",
+      "A": "objects",
+      "C": "Object identification",
+      "D": "Object modeling"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 17
+  },
+  {
+    "num": 47,
+    "body": ": MULTIPLE CHOICE John works as a Database Administrator for Bluewell Inc. The company has a SQL Server database. A table in the database has a candidate key and an attribute that is not a constituent of the candidate key. The non-key attribute depends upon the whole of the candidate key rather than just a part of it. Which of the following normal forms is represented in the scenario? \ue607",
+    "choices": {
+      "A": "1 NF",
+      "B": "2 NF",
+      "C": "4 NF",
+      "D": "3 NF"
+    },
+    "answers": [],
+    "page": 101
+  },
+  {
+    "num": 48,
+    "body": "Which of the following commands can be used to change the authorization type in DB2 9? Each correct answer represents a complete solution. (Choose all that apply.)",
+    "choices": {
+      "A": "UPDATE DBM CFG UPDATE DATABASE",
+      "B": "RESET DATABASE CONFIGURATION",
+      "D": "SET AUTHORIZATION",
+      "C": "CONFIGURATION"
+    },
+    "answers": [
+      "A",
+      "C"
+    ],
+    "page": 18
+  },
+  {
+    "num": 49,
+    "body": "Which of the following are DML commands? Each correct answer represents a complete solution. (Choose all that apply.)",
+    "choices": {
+      "A": "SELECT INTO",
+      "B": "INSERT",
+      "C": "UPDATE DELETE",
+      "D": "SELECT ALTER"
+    },
+    "answers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "page": 18
+  },
+  {
+    "num": 50,
+    "body": ": MULTIPLE CHOICE Which of the following statements is true about referential integrity? It distinguishes between null values It checks that the value of a primary",
+    "choices": {
+      "A": "and zero entries. It checks that no component of a",
+      "B": "key must be consistent throughout the life of an instance. It checks that no record in a child table can exist if its corresponding",
+      "C": "primary key can have a null value and no duplicate entries can exist.",
+      "D": "record is not available in the parent table."
+    },
+    "answers": [],
+    "page": 102
+  },
+  {
+    "num": 51,
+    "body": "You are the database administrator of a MySQL server that runs on a Windows server. All clients are local clients. For security, you want to disable connections from the remote clients. Which of the following steps will you take to accomplish the task? Start the server with the \u2013secure- Start the server with the \u2013shared-",
+    "choices": {
+      "A": "auth option. Start the server with the \u2013disable-",
+      "B": "memory option. Start the server with the \u2013skip-",
+      "C": "networking option.",
+      "D": "networking option."
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 19
+  },
+  {
+    "num": 52,
+    "body": "You manage a large database named Sales. The Sales database contains a table named OrderDetails, which is a heavily transacted table with frequent inserts. Indexes in the table often become fragmented due to excessive page splitting. You want to minimize the amount of fragmentation due to page splits. What should you do?",
+    "choices": {
+      "A": "Update the statistics on the indexes. Change the fillfactor for the indexes",
+      "B": "to 0. Change the fillfactor for the indexes",
+      "C": "to 100",
+      "D": "to 60."
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 19
+  },
+  {
+    "num": 54,
+    "body": "Which of the following is the process of extracting trails on a regular basis so that they can be transferred to a designated security system where the database administrators do not have access?",
+    "choices": {
+      "A": "bstraction",
+      "B": "Database security",
+      "C": "Native auditing",
+      "D": "Encryption"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 20
+  },
+  {
+    "num": 55,
+    "body": "Linda works as a Database Designer for Lion Inc. She has been given an assignment to design the database of a publishing company. The database has a table named Author, which has a composite key, AuthorID and TitleID. Royalty and LiteraryAgent are the other attributes. The functional dependencies are such that AuthorID + TitleID-> Royalty (i.e. Royalty is functionally dependent on AuthorID and TitleID) and AuthorID-> LiteraryAgent (i.e. LiteraryAgent is functionally dependent on AuthorID). Which of the following is true about this table?",
+    "choices": {
+      "A": "It violates 1 NF.",
+      "B": "It violates 4 NF.",
+      "C": "It violates 2 NF.",
+      "D": "There is no violation."
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 20
+  },
+  {
+    "num": 56,
+    "body": "Which of the following is a management activity that allows the stages of the database application to be realized as efficiently and effectively as possible?",
+    "choices": {
+      "A": "Identifying information for objects",
+      "B": "Database planning Requirements collection and",
+      "C": "Object identification",
+      "D": "analysis"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 21
+  },
+  {
+    "num": 57,
+    "body": "You want to recover one or more tablespaces to a point in time older than the rest of the database. Which of the following are the recovery situations in which tablespace Point-in-Time Recovery (TSPITR) should be used? Each correct answer represents a part of the solution. (Choose all that apply.) To recover a table that has become To recover a tablespace on a very",
+    "choices": {
+      "A": "logically corrupted To recover a tablespace that",
+      "B": "large database. To recover a DML statement that has",
+      "C": "contains rollback segments",
+      "D": "affected only a subset of the database"
+    },
+    "answers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "page": 21
+  },
+  {
+    "num": 58,
+    "body": "You work as a database developer for www.company.com.com. The company has a database named www.company.com that is hosted on a SQL Server 2008 server. The database includes a table named Employees, which contains the details of the employees. You want to ensure that anytime any data in the Employees table is modified with an UPDATE statement, they are recorded in a table named EmployeeChanges. The EmployeeChanges table includes columns to record what the change was, who made the change, and when they made the change. What should you create to meet this need? A DDL trigger that queries the A DML trigger that queries the",
+    "choices": {
+      "A": "inserted table A DDL trigger that queries the",
+      "B": "inserted table A DML trigger that queries the",
+      "C": "updated table",
+      "D": "updated table"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 21
+  },
+  {
+    "num": 59,
+    "body": "Which of the following statements about rebuilding an index is true? The NOLOGGING and ONLINE Without the ONLINE keyword the",
+    "choices": {
+      "A": "keywords are always used together. The NOLOGGING and ONLINE",
+      "B": "index is locked for the SELECT operation. Without the ONLINE keyword the",
+      "C": "keywords can never be used together.",
+      "D": "index is locked for any DML operation."
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 22
+  },
+  {
+    "num": 60,
+    "body": "Mark works as a Database Administrator for VCEplus Inc. The company has a SQL Server database. Management instructs him to ensure that no inconsistent data is entered in the database. Which of the following will help him to accomplish the task?",
+    "choices": {
+      "A": "Referential integrity",
+      "B": "Abstraction",
+      "C": "Native auditing Encryption",
+      "D": "Authentication"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 22
+  },
+  {
+    "num": 61,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. The UNION keyword combines the results of two queries and returns only rows that appear in both result sets. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "No change is needed",
+      "B": "INTERSECT",
+      "C": "ALL",
+      "D": "JOIN"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 22
+  },
+  {
+    "num": 62,
+    "body": "You have a database that contains 10 terabytes of data. You need to back up the database every two hours. Which type of backup should you use?",
+    "choices": {
+      "A": "full",
+      "B": "partial",
+      "C": "incremental",
+      "D": "archive"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 23
+  },
+  {
+    "num": 63,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. A relational database management system employs the concept of an attribute to ensure that data entered into a field in a column is valid. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct.",
+    "choices": {
+      "A": "a primary key",
+      "B": "a constraint",
+      "C": "an index",
+      "D": "No change is needed"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 23
+  },
+  {
+    "num": 64,
+    "body": "HOTSPOT You are structuring a table in a relational database. Instructions: For each of the following statement, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point.",
+    "choices": {
+      "A": "Parse the images :",
+      "B": "Upload the data to the database 1 Azure Cognitive Services Azure Linguistic Analysis API 5 Azure API Apps"
+    },
+    "answers": [],
+    "page": 23
+  },
+  {
+    "num": 65,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. A key defines the amount of storage space that is allocated to a value in a column. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "No change is needed",
+      "B": "validator",
+      "C": "format",
+      "D": "data type"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 24
+  },
+  {
+    "num": 66,
+    "body": "You need to create a view to filter rows of data from an underling table. Which type of clause must be included in the CREATE VIEW statement?",
+    "choices": {
+      "A": "FILTER",
+      "B": "WHERE",
+      "C": "JOIN",
+      "D": "CONSTRAINT"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 24
+  },
+  {
+    "num": 67,
+    "body": "Instructions: For each of the following statements, select the appropriate answer choice of the following: StateID is a/an [answer choice] in the State",
+    "choices": {
+      "A": "table StateIS is a/an [answer choice] in the",
+      "B": "Address table 1 index 2 union"
+    },
+    "answers": [],
+    "page": 24
+  },
+  {
+    "num": 68,
+    "body": "Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point. A SQL Server Login can use Windows",
+    "choices": {
+      "A": "Authentication",
+      "B": "the server level.",
+      "C": "database views only."
+    },
+    "answers": [],
+    "page": 25
+  },
+  {
+    "num": 69,
+    "body": "Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point. You can delete data by using a stored",
+    "choices": {
+      "A": "procedure",
+      "B": "A function must have a return value",
+      "C": ""
+    },
+    "answers": [],
+    "page": 25
+  },
+  {
+    "num": 70,
+    "body": "You have a user that has server roles as defined below: Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point. Using the simple recovery model for database backups provides [answer choice]",
+    "choices": {
+      "A": "work-loss exposure than the full recovery model Using the simple recovery model for",
+      "B": "1 less"
+    },
+    "answers": [],
+    "page": 26
+  },
+  {
+    "num": 72,
+    "body": "You have two database tables as defined below. The StateID column is unique in the State table. The AddressID column is unique in the Address table. The two tables are related by the StateID column. Each value in a field in a table must be",
+    "choices": {
+      "A": "unique",
+      "B": "Each row in a table must be unique",
+      "C": "Each column name in a table must unique"
+    },
+    "answers": [],
+    "page": 27
+  },
+  {
+    "num": 73,
+    "body": ": MATCHING Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point. A clustered index sorts and stores the data",
+    "choices": {
+      "A": "the clustered index key",
+      "B": "A unique index ensures that the index key",
+      "C": "row in the table or view is unique. A filtered index is a clustered index that is",
+      "D": "optimized for queries that select a small percentage of rows from a table. 1 No 2"
+    },
+    "answers": [],
+    "page": 114
+  },
+  {
+    "num": 74,
+    "body": "Instructions: For each of the following statements, select Yes if the statement is true. Otherwise, select No. Each correct selection is worth one point. The VARCHAR data type contains only",
+    "choices": {
+      "A": "numeric characters. The NUMERIC data type contains only",
+      "B": "numbers that have decimal places. The INT data type contains only whole",
+      "C": "numbers"
+    },
+    "answers": [],
+    "page": 28
+  },
+  {
+    "num": 75,
+    "body": "The following illustration shows the structure of a clustered index in a single partition: Instructions: Use the drop-down menus to select the answer choice that completes each statement Each correct selection is worth one point. Adding a [answer choice] on the",
+    "choices": {
+      "A": "in the table by FlightNumber Adding a [answer choice] on the Airline",
+      "B": "column retrieves data faster, but will not 1 foreign key 2"
+    },
+    "answers": [],
+    "page": 29
+  },
+  {
+    "num": 80,
+    "body": "You have a database table that stores information about school attendance. You have a data set that is defined as follows: Match the CourseName to the StudentName. Instructions: To answer, drag the appropriate CourseName from the column on the left to its StudentName on the right. Each CourseName may be used once, more than once, or not at all. Each correct match is worth one point.",
+    "choices": {
+      "A": "Brad",
+      "B": "Joe",
+      "C": "Susan 1 Geography 2 History"
+    },
+    "answers": [],
+    "page": 34
+  },
+  {
+    "num": 81,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Views are database objects that contain all of the data in a database. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "Stored procedures",
+      "B": "No change is needed",
+      "C": "Queries",
+      "D": "Tables"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 35
+  },
+  {
+    "num": 82,
+    "body": "You have two tables named Cars and Color as defined below. The two tables are related by ColorId. You run the following SQL statement: select: How many rows does the SQL statement return?",
+    "choices": {
+      "A": "0",
+      "B": "2",
+      "C": "6",
+      "D": "3"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 35
+  },
+  {
+    "num": 84,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Create a query that returns a set of table data by using the UPDATE statement. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct.",
+    "choices": {
+      "A": "SELECT",
+      "B": "INSERT",
+      "C": "No change is needed",
+      "D": "REPLACE"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 36
+  },
+  {
+    "num": 86,
+    "body": "Your class project requires that you help a charity to create a website that registers volunteers. The website must store the following data about the volunteers: . Given name . Surname . Telephone number . Email address You need to recommend a correct way to store the data. What do you recommend? Create a view that contains columns Create a table that contains columns",
+    "choices": {
+      "A": "that are named given name surname, phone number, and email. Create a view that contains rows that",
+      "B": "that are named given name, surname, phone number, and email. Create a table that contains rows",
+      "C": "are named given name surname, phone number, and email",
+      "D": "that are named given name, surname, phone number, and email."
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 37
+  },
+  {
+    "num": 87,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Use the ALLOW SELECT command to give a user permission to read the data in a table. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "GRANT SELECT",
+      "B": "LET HEAD",
+      "C": "PERMIT READ",
+      "D": "No change is needed"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 37
+  },
+  {
+    "num": 88,
+    "body": "You have a user that has server roles as defined below: Instructions: Use the drop-down menus to select the answer choice that completes each statement. Each correct selection is worth one point. The user can perform [answer choice]",
+    "choices": {
+      "A": "actions on data that is on the server The user can perform [answer choice]",
+      "B": "server. 1 no 2 unlimited"
+    },
+    "answers": [],
+    "page": 38
+  },
+  {
+    "num": 90,
+    "body": "You need to delete a database table. Which data definition language (DDL) keyword should you use?",
+    "choices": {
+      "A": "ALTER",
+      "B": "DELETE",
+      "C": "DROP",
+      "D": "TRUNCATE"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 39
+  },
+  {
+    "num": 91,
+    "body": "You need to add rows to a database table. Which Structured Query Language (SQL) keyword should you use?",
+    "choices": {
+      "A": "JOIN",
+      "B": "INSERT",
+      "C": "UPDATE",
+      "D": "CREATE"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 39
+  },
+  {
+    "num": 92,
+    "body": "You need to retrieve data from two related database tables based on a column that exists in both tables. Which command should you use in a query?",
+    "choices": {
+      "A": "TRUNCATE",
+      "B": "INTERSECT",
+      "C": "JOIN",
+      "D": "UNION"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 39
+  },
+  {
+    "num": 93,
+    "body": "You have a database table that contains the following columns: You must insert the following record into the table: Which two Structured Query Language (SQL) statements can you use? (Choose two.)",
+    "choices": {
+      "A": "Option B",
+      "B": "Option A",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answers": [
+      "A",
+      "C"
+    ],
+    "page": 40
+  },
+  {
+    "num": 94,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. The UNION keyword combines the results of two queries and returns only rows that appear in both result sets. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "No change is needed",
+      "B": "ALL",
+      "C": "INTERSECT",
+      "D": "JOIN"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 40
+  },
+  {
+    "num": 95,
+    "body": "You work at a restaurant and they ask you to help them with a data issue. They provide you with the following recipe data: You need to normalize the data to third normal form. How many tables should you create?",
+    "choices": {
+      "A": "2",
+      "B": "1",
+      "C": "3",
+      "D": "4"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 41
+  },
+  {
+    "num": 97,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Use the ALTER statement to add a new table in a database. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct.",
+    "choices": {
+      "A": "UPDATE",
+      "B": "CREATE",
+      "C": "No change is needed",
+      "D": "INSERT"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 42
+  },
+  {
+    "num": 98,
+    "body": ": MULTIPLE CHOICE You need to rename a column in a database table. Which data definition language (DDL) statement should you use?",
+    "choices": {
+      "A": "INSERT",
+      "B": "UPDATE",
+      "C": "CREATE",
+      "D": "ALTER"
+    },
+    "answers": [],
+    "page": 132
+  },
+  {
+    "num": 99,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Use indexing to create, remove, or change database objects. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct.",
+    "choices": {
+      "A": "No change is needed.",
+      "B": "statements Data definition language (DDL)",
+      "C": "A unique constraint",
+      "D": "statements"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 43
+  },
+  {
+    "num": 100,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. In a database table, each column represents a unique record. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "Row",
+      "B": "Table",
+      "C": "Index",
+      "D": "No change is needed"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 43
+  },
+  {
+    "num": 101,
+    "body": ": MULTIPLE CHOICE This question requires that you evaluate the underlined text to determine if it is correct. You have two tables. Each table has three rows. Nine rows will be included in the Cartesian product of these two tables. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement corrector.",
+    "choices": {
+      "A": "Zero",
+      "B": "Six",
+      "C": "Three",
+      "D": "No change is needed"
+    },
+    "answers": [],
+    "page": 133
+  },
+  {
+    "num": 102,
+    "body": "You have two tables named Salesperson and Sales. You need to ensure that each record in the Sales table has a valid associated salesperson record in the Salesperson table. Which database object should you add to the Sales table?",
+    "choices": {
+      "A": "Primary key",
+      "B": "Nonclustered index",
+      "C": "Foreign key",
+      "D": "Clustered index"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 44
+  },
+  {
+    "num": 104,
+    "body": "While attending college, you accept an IT internship at a local charity. The charity needs to report on data that is related and exists in two tables. You need to establish a relationship between the data that is in the two tables. Which constraint should you define?",
+    "choices": {
+      "A": "Link Key",
+      "B": "Index Key",
+      "C": "Foreign Key",
+      "D": "Default Key"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 45
+  },
+  {
+    "num": 105,
+    "body": ": MULTIPLE CHOICE This question requires that you evaluate the underlined text to determine if it is correct. A view can be used to ensure referential integrity. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct \ue607 Limit access to specific rows or Save an extra copy of data stored in",
+    "choices": {
+      "A": "columns of data in a table. Save historical data before deleting it",
+      "B": "a separate table.",
+      "D": "No change is needed.",
+      "C": "from the base table."
+    },
+    "answers": [],
+    "page": 136
+  },
+  {
+    "num": 109,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. Use the FROM keyword in a SELECT statement to return rows that meet a specific condition. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "WHERE",
+      "B": "No change is needed",
+      "C": "UNION",
+      "D": "ORDER BY"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 49
+  },
+  {
+    "num": 110,
+    "body": ": MULTIPLE CHOICE You need to combine the results of two queries into a single result that contains all of the rows from both queries. Which Structured Query Language (SQL) statement should you use?",
+    "choices": {
+      "A": "JOIN",
+      "B": "TRUNCATE",
+      "C": "EXCEPT",
+      "D": "UNION"
+    },
+    "answers": [],
+    "page": 140
+  },
+  {
+    "num": 111,
+    "body": "This question requires that you evaluate the underlined text to determine if it is correct. The CREATE TABLE command removes one or more table definitions and all data, indexes, triggers, constraints, and permission specifications for those tables. Instructions: Review the underlined text. If it makes the statement correct, select \u201cNo change is needed.\u201d If the statement is incorrect, select the answer choice that makes the statement correct",
+    "choices": {
+      "A": "DROP TABLE",
+      "B": "TRUNCATE TABLE",
+      "C": "No change is needed",
+      "D": "ALTER TABLE"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 50
+  },
+  {
+    "num": 112,
+    "body": "You have the database table named Cars as defined below: You have the following Structured Query Language (SQL) statement: How many rows are returned by the SQL statement?",
+    "choices": {
+      "A": "4",
+      "B": "6",
+      "C": "7",
+      "D": "5"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 50
+  },
+  {
+    "num": 113,
+    "body": "First normal form requires that a database excludes:",
+    "choices": {
+      "A": "Duplicate rows",
+      "B": "Composite keys",
+      "C": "Repeating groups",
+      "D": "Foreign keys"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 51
+  },
+  {
+    "num": 114,
+    "body": "You execute a statement inside a transaction to delete 100 rows from a table. The transaction fails after only 40 rows are deleted. What is the result in the database?",
+    "choices": {
+      "A": "The table will be corrupted.",
+      "B": "the table. No rows will be deleted from the",
+      "C": "The transaction will restart.",
+      "D": "table."
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 51
+  },
+  {
+    "num": 115,
+    "body": "You have a table that contains product IDs and product names. You need to write an UPDATE statement to change the name of a specific product to glass. What should you include in the update statement?",
+    "choices": {
+      "A": "EXEC ProduetName = \u2018glass\u2019",
+      "B": "LET ProduetName = \u2018glass\u2019",
+      "C": "ASSIGN ProduetName = \u2018glass\u2019",
+      "D": "SET ProduetName = \u2018glass\u2019"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 51
+  },
+  {
+    "num": 117,
+    "body": "On which database structure does an insert statement operate?",
+    "choices": {
+      "A": "Stored procedure",
+      "B": "Trigger",
+      "C": "User Role",
+      "D": "Table"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 52
+  },
+  {
+    "num": 118,
+    "body": "You have a table of products with fields for ProductID, Name, and Price. You need to write an UPDATE statement that sets the value in the InStock field to Yes for a specific ProductID. Which clause should you use in your update statement?",
+    "choices": {
+      "A": "THAT",
+      "B": "WHERE",
+      "C": "GROUP BY",
+      "D": "HAVING"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 52
+  },
+  {
+    "num": 119,
+    "body": "You have the following table definition: CREATE TABLE Product (ProductID INTEGER, Name VARCHAR(20)) You need to insert a new product. The product\u2019s name is Plate and the product\u2019s ID is 12345. Which statement should you use?",
+    "choices": {
+      "A": "Option D",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option A"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 53
+  },
+  {
+    "num": 120,
+    "body": "You assign User1 a set of permissions that include the WITH GRANT OPTION. The WITH GRANT OPTION enables User1 to:",
+    "choices": {
+      "A": "delegate permissions to other users.",
+      "B": "view other users\u2019 permissions.",
+      "C": "create new database users.",
+      "D": "request a log of permission use."
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 53
+  },
+  {
+    "num": 121,
+    "body": ": MULTIPLE CHOICE Which type of index changes the order in which the data is stored in a table?",
+    "choices": {
+      "A": "non-clustered",
+      "B": "non-sequential",
+      "C": "sequential",
+      "D": "clustered"
+    },
+    "answers": [],
+    "page": 145
+  },
+  {
+    "num": 122,
+    "body": "Which statement should you use to remove a foreign key?",
+    "choices": {
+      "A": "ALTER FOREIGN KEY",
+      "B": "DELETE TABLE",
+      "C": "DELETE FOREIGN KEY",
+      "D": "ALTER TABLE"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 54
+  },
+  {
+    "num": 123,
+    "body": "You need to store the first name, last name, and student ID for 100 students. This information will be stored in a table as:",
+    "choices": {
+      "A": "three items and 100 cells.",
+      "B": "100 items and three cells.",
+      "C": "100 rows and three columns.",
+      "D": "three rows and 100 columns."
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 54
+  },
+  {
+    "num": 124,
+    "body": "What are three valid data manipulation language (DML) commands? (Choose three.)",
+    "choices": {
+      "A": "OUTPUT",
+      "B": "UPDATE",
+      "C": "DELETE COMMIT",
+      "D": "INSERT"
+    },
+    "answers": [
+      "B",
+      "C",
+      "D"
+    ],
+    "page": 54
+  },
+  {
+    "num": 125,
+    "body": ": MULTIPLE CHOICE What is one difference between an update statement and a delete statement? An update statement does not A delete statement works only within",
+    "choices": {
+      "A": "remove rows from a table. A delete statement cannot use a",
+      "B": "a stored procedure. An update statement can change",
+      "C": "where clause.",
+      "D": "only one row."
+    },
+    "answers": [],
+    "page": 146
+  },
+  {
+    "num": 126,
+    "body": "You have a Department table and an Employee table in your database. You need to ensure that an employee can be assigned to only an existing department. What should you apply to the Employee table?",
+    "choices": {
+      "A": "A data type",
+      "B": "A primary key",
+      "C": "A unique constraint An index",
+      "D": "A foreign key"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 55
+  },
+  {
+    "num": 127,
+    "body": "You need to list the name and price of each product, sorted by price from highest to lowest. Which statement should you use?",
+    "choices": {
+      "A": "Option B",
+      "B": "Option C",
+      "C": "Option D",
+      "D": "Option A"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 55
+  },
+  {
+    "num": 128,
+    "body": "You delete rows in a table named Order. The corresponding rows in the OrderItem table are automatically deleted. This process is an example of a/an:",
+    "choices": {
+      "A": "Cascade delete",
+      "B": "Domino delete",
+      "C": "Functional delete Waterfall delete",
+      "D": "Inherited delete"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 56
+  },
+  {
+    "num": 129,
+    "body": "Which statement deletes the rows where the employee\u2019s phone number is not entered?",
+    "choices": {
+      "A": "Option B",
+      "B": "Option C",
+      "C": "Option A",
+      "D": "Option D"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 56
+  },
+  {
+    "num": 131,
+    "body": "You have a table named Employee that includes four columns. You execute the following statement: SELECT * FROM Employee Which columns are returned?",
+    "choices": {
+      "A": "all columns",
+      "B": "only the first and last columns",
+      "C": "only the last column",
+      "D": "only the first column"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 57
+  },
+  {
+    "num": 132,
+    "body": ": MULTIPLE CHOICE Which two elements are required to define a column? (Choose two.)",
+    "choices": {
+      "A": "A name",
+      "B": "An Index",
+      "C": "A data type",
+      "D": "A key"
+    },
+    "answers": [],
+    "page": 150
+  },
+  {
+    "num": 133,
+    "body": "You are creating a table to store customer data. The AccountNumber column uses values that always consist of one letter and four digits. Which data type should you use for the AccountNumber column?",
+    "choices": {
+      "A": "SMALLINT",
+      "B": "BYTE",
+      "C": "CHAR",
+      "D": "DOUBLE"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 58
+  },
+  {
+    "num": 134,
+    "body": "Which keyword must be included in a create view statement?",
+    "choices": {
+      "A": "SELECT",
+      "B": "UPDATE",
+      "C": "WHERE",
+      "D": "ORDER BY"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 58
+  },
+  {
+    "num": 135,
+    "body": ": MULTIPLE CHOICE You have a table named Customer. You need to add a new column named District. Which statement should you use?",
+    "choices": {
+      "A": "Option C",
+      "B": "Option A",
+      "C": "Option B",
+      "D": "Option D"
+    },
+    "answers": [],
+    "page": 151
+  },
+  {
+    "num": 136,
+    "body": "You need to remove a view named EmployeeView from your database. Which statement should you use?",
+    "choices": {
+      "A": "DROP VIEW EmployeeView",
+      "B": "DELETE VIEW EmployeeView",
+      "C": "DROP EmployeeView",
+      "D": "DELETE EmployeeView"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 59
+  },
+  {
+    "num": 137,
+    "body": "A named group of SQL statements that can be executed in a database is called a:",
+    "choices": {
+      "A": "Subroutine",
+      "B": "Stored procedure",
+      "C": "Method",
+      "D": "Formula"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 59
+  },
+  {
+    "num": 138,
+    "body": ": MULTIPLE CHOICE You have a table named Product that contains the following data. The ProductID column is the primary key. The CategoryID column is a foreign key to a separate table named Category. You execute the following statement: INSERT INTO Product VALUES (3296, \u2018Table\u2019, 4444) What is the result?",
+    "choices": {
+      "A": "a foreign key constraint violation",
+      "B": "a syntax error",
+      "C": "a new row in the Product table a new row in the Category table",
+      "D": "a primary key constraint violation"
+    },
+    "answers": [],
+    "page": 152
+  },
+  {
+    "num": 139,
+    "body": "Denormalization is performed in order to:",
+    "choices": {
+      "A": "Improve query performance.",
+      "B": "Create smaller tables.",
+      "C": "Reduce redundancy.",
+      "D": "Eliminate repeating groups."
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 60
+  },
+  {
+    "num": 140,
+    "body": "You have a table named Product that contains one million rows. You need to search for product information in the Product table by using the product\u2019s unique ID. What will make this type of search more efficient?",
+    "choices": {
+      "A": "An index",
+      "B": "A subquery",
+      "C": "A trigger",
+      "D": "A cursor"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 60
+  },
+  {
+    "num": 141,
+    "body": ": MULTIPLE CHOICE You need to establish a set of permissions that you can routinely assign to new users. What should you create? \ue607",
+    "choices": {
+      "A": "Group",
+      "B": "Role",
+      "C": "Resource",
+      "D": "List"
+    },
+    "answers": [],
+    "page": 153
+  },
+  {
+    "num": 142,
+    "body": "You need to disable User1\u2019s access to view the data in the Customer table. Which statement should you use?",
+    "choices": {
+      "A": "Option B",
+      "B": "Option C",
+      "C": "Option D",
+      "D": "Option A"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 61
+  },
+  {
+    "num": 143,
+    "body": "You have a table named Student that contains 100 rows. Some of the rows have a NULL value in the FirstName column. You execute the following statement: DELETE FROM Student What is the result?",
+    "choices": {
+      "A": "You will receive an error message. All rows containing a NULL value in",
+      "B": "All rows in the table will be deleted. All rows and the table definition will",
+      "D": "be deleted.",
+      "C": "the FirstName column will be deleted."
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 61
+  },
+  {
+    "num": 144,
+    "body": "Data in a database is stored in:",
+    "choices": {
+      "A": "Tables",
+      "B": "Data types",
+      "C": "Stored procedures",
+      "D": "Queries"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 62
+  },
+  {
+    "num": 145,
+    "body": "You need to store the contact information for each student in your school database. You should store each student\u2019s information in a:",
+    "choices": {
+      "A": "Row",
+      "B": "Variable",
+      "C": "Function",
+      "D": "Stored procedure"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 62
+  },
+  {
+    "num": 146,
+    "body": "Which category of SQL statements is used to add, remove, and modify database structures?",
+    "choices": {
+      "A": "Data manipulation language (DML)",
+      "B": "Data definition language (DDL)",
+      "C": "Data control language (DCL)",
+      "D": "Data access language (DAL)"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 62
+  },
+  {
+    "num": 148,
+    "body": "You have a table named Employee that includes the following columns: EmployeeID EmployeeName Which statement should you use to return the number of rows in the table?",
+    "choices": {
+      "A": "Option D",
+      "B": "Option B",
+      "C": "Option A",
+      "D": "Option C"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 63
+  },
+  {
+    "num": 149,
+    "body": ": MULTIPLE CHOICE The Product table contains the following data. You execute the following statement: SELECT COUNT(*) FROM Product WHERE Quantity > 18 What is the value returned by this statement?",
+    "choices": {
+      "A": "1",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "answers": [],
+    "page": 157
+  },
+  {
+    "num": 150,
+    "body": "Which command should you use to remove a table from a database?",
+    "choices": {
+      "A": "DROP TABLE",
+      "B": "REMOVE TABLE",
+      "C": "UPDATE TABLE",
+      "D": "DELETE TABLE"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 64
+  },
+  {
+    "num": 151,
+    "body": "You execute the following statement: This statement is an example of a/an:",
+    "choices": {
+      "A": "Subquery",
+      "B": "Outer join",
+      "C": "Union",
+      "D": "Cartesian product"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 64
+  },
+  {
+    "num": 152,
+    "body": "Which keyword would you use in a select statement to return rows that meet a specific condition?",
+    "choices": {
+      "A": "WHERE",
+      "B": "UNION",
+      "C": "FROM",
+      "D": "ORDER BY"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 65
+  },
+  {
+    "num": 153,
+    "body": "You have a table that contains information about all students in your school. Which SQL keyword should you use to change a student\u2019s first name in the table?",
+    "choices": {
+      "A": "INSERT",
+      "B": "SELECT",
+      "C": "CHANGE",
+      "D": "UPDATE"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 65
+  },
+  {
+    "num": 154,
+    "body": ": MULTIPLE CHOICE You need to populate a table named EmployeeCopy with data from an existing table named Employee. Which statement should you use?",
+    "choices": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answers": [],
+    "page": 159
+  },
+  {
+    "num": 155,
+    "body": "You are writing a select statement to find every product whose name contains a specific character. Which keyword should you use in your where clause?",
+    "choices": {
+      "A": "FIND",
+      "B": "LIKE",
+      "C": "INCLUDES",
+      "D": "BETWEEN"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 66
+  },
+  {
+    "num": 156,
+    "body": ": MULTIPLE CHOICE A database contains two tables named Customer and Order. You execute the following statement: DELETE FROM Order WHERE CustomerID = 209 What is the result? CustomerID 209 is deleted from the All orders for CustomerID 209 are",
+    "choices": {
+      "A": "Customer table. The first order for CustomerID 209 is",
+      "B": "CustomerID 209 is deleted from the Customer table. All orders for CustomerID 209 are",
+      "C": "deleted from the Order table.",
+      "D": "deleted from the Order table."
+    },
+    "answers": [],
+    "page": 160
+  },
+  {
+    "num": 157,
+    "body": "You have a table named Product. The Product table has columns for ProductDescription and ProductCategory. You need to change the ProductCategory value for all the spoons in the Product table to 43. Which statement should you use?",
+    "choices": {
+      "A": "option B",
+      "B": "option A",
+      "C": "option C",
+      "D": "option D"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 67
+  },
+  {
+    "num": 158,
+    "body": ": MULTIPLE CHOICE Which command should you use to add a column to an existing table?",
+    "choices": {
+      "A": "MODIFY",
+      "B": "CHANGE",
+      "C": "INSERT ALTER",
+      "D": "UPDATE"
+    },
+    "answers": [],
+    "page": 161
+  },
+  {
+    "num": 159,
+    "body": "You have the following table definition: CREATE TABLE Product (ID INTEGER PRIMARY KEY, Name VARCHAR(20), Quantity INTEGER) The Product table contains the following data. You execute the following statement: SELECT Name FROM Product WHERE Quantity IS NOT NULL How many rows are returned?",
+    "choices": {
+      "A": "3",
+      "B": "4",
+      "C": "1 0",
+      "D": "2"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 68
+  },
+  {
+    "num": 160,
+    "body": "Which constraint ensures a unique value in the ID column for each customer?",
+    "choices": {
+      "A": "DISTINCT",
+      "B": "PRIMARY KEY",
+      "C": "FOREIGN KEY",
+      "D": "SEQUENTIAL"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 68
+  },
+  {
+    "num": 162,
+    "body": "You execute the following statement: SELECT EmployeeID, FirstName, DepartmentName FROM Employee, Department This type of operation is called a/an:",
+    "choices": {
+      "A": "Equi-join",
+      "B": "Outer join",
+      "C": "Cartesian product",
+      "D": "Intersection"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 69
+  },
+  {
+    "num": 163,
+    "body": "In SQL, an insert statement is used to add a:",
+    "choices": {
+      "A": "Column to a table definition.",
+      "B": "Row of data to a table.",
+      "C": "User to a database.",
+      "D": "Table to a database."
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 69
+  },
+  {
+    "num": 164,
+    "body": "You are writing an SQL statement to retrieve rows from a table. Which data manipulation language (DML) command should you use?",
+    "choices": {
+      "A": "SELECT",
+      "B": "GET",
+      "C": "OUTPUT",
+      "D": "READ"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 69
+  },
+  {
+    "num": 165,
+    "body": ": MULTIPLE CHOICE You need to store product names that vary from three to 30 characters. You also need to minimize the amount of storage space that is used. Which data type should you use?",
+    "choices": {
+      "A": "CHAR (30)",
+      "B": "VARCHAR (3, 30)",
+      "C": "VARCHAR (30)",
+      "D": "CHAR (3, 30)"
+    },
+    "answers": [],
+    "page": 164
+  },
+  {
+    "num": 166,
+    "body": "One reason to create a stored procedure is to:",
+    "choices": {
+      "B": "Minimize storage space. Give the user control of the query",
+      "A": "requirements.",
+      "C": "Improve performance.",
+      "D": "logic."
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 70
+  },
+  {
+    "num": 167,
+    "body": "Which permission does a user need in order to run a stored procedure?",
+    "choices": {
+      "A": "RUN",
+      "B": "ALLOW",
+      "C": "CALL",
+      "D": "EXECUTE"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 70
+  },
+  {
+    "num": 168,
+    "body": "You have a table named Product. You create a view that includes all the products from the Product table that are in the Furniture category. You execute a statement on the Product table that deletes all the products in the Furniture category. After you execute the statement, the result set of the view is:",
+    "choices": {
+      "A": "Deleted",
+      "B": "Unchanged",
+      "C": "Archived",
+      "D": "Empty"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 70
+  },
+  {
+    "num": 169,
+    "body": "You have the following table definition: CREATE TABLE Road (RoadID INTEGER NOT NULL, Distance INTEGER NOT NULL) The Road table contains the following data: You execute the following statement: INSERT INTO Road VALUES (1234, 36) What is the result? an error stating that duplicate IDs are an error stating that NULL values are",
+    "choices": {
+      "A": "not allowed",
+      "B": "not allowed",
+      "C": "a new row in the table",
+      "D": "a syntax error"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 71
+  },
+  {
+    "num": 170,
+    "body": "You need to store product quantities, and you want to minimize the amount of storage space that is used. Which data type should you use?",
+    "choices": {
+      "A": "INTEGER",
+      "B": "FLOAT",
+      "C": "COUNT",
+      "D": "DOUBLE"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 71
+  },
+  {
+    "num": 172,
+    "body": "You need to enable a new employee to authenticate to your database. Which command should you use?",
+    "choices": {
+      "A": "INSERT USER",
+      "B": "ADD USER",
+      "C": "CREATE USER ALTER USER",
+      "D": "ALLOW USER"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 72
+  },
+  {
+    "num": 173,
+    "body": "Which keyword can be used in a create table statement?",
+    "choices": {
+      "A": "DISTINCT",
+      "B": "GROUP BY",
+      "C": "UNIQUE",
+      "D": "ORDER BY"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 72
+  },
+  {
+    "num": 174,
+    "body": ": MULTIPLE CHOICE Which command should you use to give a user permission to read the data in a table? \ue607",
+    "choices": {
+      "A": "GRANT SELECT",
+      "B": "LET READ",
+      "C": "ALLOW SELECT",
+      "D": "PERMIT READ"
+    },
+    "answers": [],
+    "page": 168
+  },
+  {
+    "num": 175,
+    "body": "In which situation do you need to perform a restore on a database? when you encounter an error in your when data becomes corrupted in the",
+    "choices": {
+      "A": "application When you need to roll back a",
+      "B": "database when data needs to be deleted from",
+      "C": "transaction",
+      "D": "the database"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 73
+  },
+  {
+    "num": 176,
+    "body": "At 3:00 P.M. (1500 hours), you create a backup of your database. At 4:00 P.M. (1600 hours), you create a table named Customer and import data into the table. At 5:00 P.M. (1700 hours), your server fails. You run a script to apply only the 3:00 P.M. backup to your database. What is the result of the script?",
+    "choices": {
+      "A": "The script fails.",
+      "B": "no data.",
+      "C": "The Customer data no longer exists.",
+      "D": "The Customer table no longer exists."
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 73
+  },
+  {
+    "num": 177,
+    "body": ": MULTIPLE CHOICE Which statement creates a composite key?",
+    "choices": {
+      "A": "Option A",
+      "B": "Option C",
+      "C": "Option D",
+      "D": "Option B"
+    },
+    "answers": [],
+    "page": 169
+  },
+  {
+    "num": 178,
+    "body": "Which key uniquely identifies a row in a table?",
+    "choices": {
+      "A": "local",
+      "B": "foreign",
+      "C": "primary",
+      "D": "superkey"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 74
+  },
+  {
+    "num": 179,
+    "body": ": MULTIPLE CHOICE You have a table that contains the following data. You break the table into the following two tables. This process is referred to as: \ue607",
+    "choices": {
+      "A": "normalization",
+      "B": "denormalization",
+      "C": "fragmentation",
+      "D": "defragmentation"
+    },
+    "answers": [],
+    "page": 170
+  },
+  {
+    "num": 180,
+    "body": "You have a table that contains the following data. Which database term is used to describe the relationship between ProductID and ProductCategory?",
+    "choices": {
+      "A": "Cohort",
+      "B": "Functionally dependent",
+      "C": "Relationally dependent Deterministic",
+      "D": "Compositional"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 75
+  },
+  {
+    "num": 181,
+    "body": ": MULTIPLE CHOICE The terms \u201cbitmap,\u201d \u201cb-tree,\u201d and \u201chash\u201d refer to which type of database structure? \ue607",
+    "choices": {
+      "A": "Index",
+      "B": "Stored procedure",
+      "C": "View Function",
+      "D": "Trigger"
+    },
+    "answers": [],
+    "page": 171
+  },
+  {
+    "num": 182,
+    "body": "One reason to add an index is to: Improve performance of select Improve performance of insert",
+    "choices": {
+      "A": "statements.",
+      "B": "statements.",
+      "C": "Decrease storage space.",
+      "D": "Increase database security."
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 76
+  },
+  {
+    "num": 183,
+    "body": "One error that may occur is attempting to retrieve data with a well-written query but against the wrong ________.",
+    "choices": {
+      "A": "row",
+      "B": "database",
+      "C": "column",
+      "D": "table"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 76
+  },
+  {
+    "num": 184,
+    "body": "Which statement best defines a syntax error? Prevents changes to a database from Causes tables to not appear correctly",
+    "choices": {
+      "A": "being completed",
+      "B": "within a database",
+      "C": "Prevents a table from being created",
+      "D": "Causes a statement not to run"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 76
+  },
+  {
+    "num": 185,
+    "body": ": MULTIPLE CHOICE One error that may occur when manipulating data is a missing _______: \ue607",
+    "choices": {
+      "A": "column",
+      "B": "keyword",
+      "C": "query",
+      "D": "table"
+    },
+    "answers": [],
+    "page": 172
+  },
+  {
+    "num": 186,
+    "body": "What clause should always be included in an UPDATE statement?",
+    "choices": {
+      "A": "WHERE",
+      "B": "GROUP BY",
+      "C": "FROM",
+      "D": "HAVING"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 77
+  },
+  {
+    "num": 187,
+    "body": "What must be included in parenthesis in an INSERT INTO .. VALUES statement?",
+    "choices": {
+      "A": "column types",
+      "B": "number of columns",
+      "C": "null values",
+      "D": "required fields"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 77
+  },
+  {
+    "num": 188,
+    "body": "What statement is used to copy records from an existing table to a new table?",
+    "choices": {
+      "A": "SELECT WITHIN",
+      "B": "SELECT",
+      "C": "SELECT INTO",
+      "D": "INSERT INTO SELECT"
+    },
+    "answers": [
+      "C"
+    ],
+    "page": 77
+  },
+  {
+    "num": 190,
+    "body": "What statement is used to copy records from one table into an existing table?",
+    "choices": {
+      "A": "INSERT INTO .. SELECT",
+      "B": "SELECT INTO",
+      "C": "SELECT WITHIN",
+      "D": "SELECT"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 78
+  },
+  {
+    "num": 191,
+    "body": "What keyword removes records from a table?",
+    "choices": {
+      "A": "DELETE",
+      "B": "REMOVE",
+      "C": "DROP",
+      "D": "CANCEL"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 78
+  },
+  {
+    "num": 192,
+    "body": "What statement is used to insert values into a table?",
+    "choices": {
+      "A": "ADD INTO ... VALUES",
+      "B": "INSERT VALUES ... INTO",
+      "C": "ADD VALUES",
+      "D": "INSERT INTO ... VALUES"
+    },
+    "answers": [
+      "D"
+    ],
+    "page": 78
+  },
+  {
+    "num": 193,
+    "body": ": MULTIPLE CHOICE What statement is used to change existing data? \ue607",
+    "choices": {
+      "A": "UPDATE",
+      "B": "MODIFY",
+      "C": "NEW",
+      "D": "CHANGE"
+    },
+    "answers": [],
+    "page": 175
+  },
+  {
+    "num": 194,
+    "body": "What is the difference between a DELETE statement and a TRUNCATE TABLE statement? One can identify specific records that One can identify specific records that are being deleted with a TRUNCATE are being deleted with a DELETE",
+    "choices": {
+      "B": "statement, while a TRUNCATE TABLE statement deletes all data in a table One can identify specific records that are being deleted with a DELETE",
+      "A": "TABLE statement, while a DELETE statement allows one to delete specific characters in a record One can identify specific records that are being deleted with a TRUNCATE",
+      "C": "TABLE statement, while a DELETE statement deletes all data in a table",
+      "D": "statement, while a TRUNCATE TABLE statement allows one to delete specific characters in a record"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 79
+  },
+  {
+    "num": 195,
+    "body": "While a clustered index is based on a __________, a nonclustered index can be based on any other field.",
+    "choices": {
+      "A": "column",
+      "B": "primary key field",
+      "C": "foreign key field",
+      "D": "row"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 79
+  },
+  {
+    "num": 196,
+    "body": "What is not allowed in object names in SQL?",
+    "choices": {
+      "A": "numbers",
+      "B": "spaces",
+      "C": "special characters",
+      "D": "symbols"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 79
+  },
+  {
+    "num": 197,
+    "body": "Which command removes a table from a database?",
+    "choices": {
+      "A": "CLEAR TABLE",
+      "B": "DROP TABLE",
+      "C": "DELETE TABLE",
+      "D": "ELIMINATE TABLE"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 80
+  },
+  {
+    "num": 198,
+    "body": "What type of parameter must be specified when creating a stored procedure?",
+    "choices": {
+      "A": "number",
+      "B": "output",
+      "C": "boolean",
+      "D": "input"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 80
+  },
+  {
+    "num": 199,
+    "body": "Which statement best defines a view? a stored statement that leads one to a location within a database that stores",
+    "choices": {
+      "A": "specific information a location within a database that stores",
+      "B": "general information a stored statement that leads one to",
+      "C": "specific information",
+      "D": "general information"
+    },
+    "answers": [
+      "A"
+    ],
+    "page": 80
+  },
+  {
+    "num": 200,
+    "body": "To change a view, with what keyword should CREATE in the CREATE VIEW command be replaced?",
+    "choices": {
+      "A": "CHANGE",
+      "B": "ALTER",
+      "C": "REPLACE",
+      "D": "UPDATE"
+    },
+    "answers": [
+      "B"
+    ],
+    "page": 80
+  }
+]
